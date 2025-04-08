@@ -1,0 +1,279 @@
+.topo{
+    width: 0,09rem;
+    height: 4rem;
+    background-color: #02A28F;
+    padding-top: 1rem;
+    padding-right: 9,75rem;
+    padding-bottom: 1rem;
+    padding-left: 9,75rem;
+    gap: 0,625rem;
+}
+.titulotopo{
+    width: 16,75rem;
+    height: 2,75rem;
+   margin-left: 156px;
+   margin-top: 13px;
+   font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 2,25rem;
+    color: #ffffff;
+}
+#imgcidade{
+    width: 46.5rem;
+    height: 24.75rem;
+    padding-top: 3.125rem;
+    padding-left: 9.75rem;
+}
+#main{
+    display: flex;
+}
+#postpoplulares{
+    width: 21.5625rem;
+    height: 24.75rem;
+    margin-top: 3.25rem;
+}
+#postrecentes{
+    background-color: #02A28F;
+    width: 39.375rem;
+    height: 3.125rem;
+    border-radius: 0.5rem;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    display: flex;
+}
+.recentespost{
+    width: 13.125rem;
+    height: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #ffffff;
+}
+#vertodos{
+    width: 4.25rem;
+    height: 1.0625rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: #ffffff;
+    text-decoration: underline;
+    padding-top: 0.625rem;
+}
+#imgcategorias{
+    padding-left: 1.5625rem;
+    width: 12.5rem;
+    height: 11.25rem;
+}
+#imagenspost{
+    width: 22.5rem;
+    height: 24.75rem;
+    margin-left: 9.375rem;
+    margin-bottom: 12.5rem;
+    
+    
+   
+}
+#main2{
+   display: flex;
+   margin-left: 11.5625rem;
+   height: 3.5rem;
+}
+.main3{
+    display: flex;
+    margin-top: 0.9375rem;
+}
+.main4{
+    display: flex;
+    
+}
+.main5{
+    width: auto;
+    height: 3rem;
+    margin-top: 1.875rem;
+    margin-left: -0.0625rem;
+    justify-content: space-between;
+    padding-top: 1.0625rem;
+    padding-right: 39.8125rem;
+    padding-bottom: 1.0625rem;
+    padding-left: 39.8125rem;
+    background-color: #02A28F;
+}
+#img1{
+    width: 22.1875rem;
+    height: 23.75rem;
+    margin-left: 10.5625rem;
+    margin-top: 1.875rem;
+}
+#img2{
+    width: 22.1875rem;
+    height: 23.75rem;
+    margin-left: 0.3125rem;
+    margin-top: 1.875rem;
+}
+#img3{
+    width: 22.1875rem;
+    height: 23.75rem;
+    margin-left: 10.5625rem;
+    margin-top: 1.875rem;
+}
+#img4{
+    width: 22.1875rem;
+    height: 23.75rem;
+    margin-top: 1.875rem;
+    margin-left: 0.3125rem;
+}
+#rodape{
+    width: 13.8125rem;
+    height: 1.0625rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: #ffffff;
+}
+
+/* Estilo para o rodapé */
+.rodape {
+    width: 100%;
+    height: 3rem;
+    background-color: #02A28F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.875rem; /* Espaçamento superior */
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem; /* 14px */
+    text-align: center;
+    
+}
+
+/* Estilo para o menu de navegação */
+.menu-navegacao {
+    background-color: #02A28F;
+    padding: 1rem;
+    text-align: center;
+}
+
+.menu-navegacao ul {
+    list-style: none; /* Remove os marcadores da lista */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Espaçamento entre os itens */
+}
+
+.menu-navegacao li {
+    display: inline;
+}
+
+.menu-navegacao a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.menu-navegacao a:hover {
+    color: #FFD700; /* Cor ao passar o mouse */
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem linha em telas menores */
+    gap: 1rem;
+}
+
+/* Contêiner do Grid */
+.grid-container {
+    display: grid; /* Ativa o Grid */
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas de tamanhos iguais */
+    grid-gap: 1rem; /* Espaçamento entre os itens */
+    padding: 1rem;
+    background-color: #f0f0f0;
+}
+
+/* Itens do Grid */
+.item {
+    background-color: #02A28F;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+@media (max-width: 320px) {
+    .topo {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .titulotopo {
+        font-size: 1.5rem; /* Reduz o tamanho do título */
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
+
+    #main, #main2, .main3, .main4, .main5 {
+        flex-direction: column; /* Empilha os elementos verticalmente */
+        align-items: center;
+    }
+
+    #imgcidade, #imgcategorias, #imagenspost, #img1, #img2, #img3, #img4 {
+        width: 90%; /* Ajusta a largura para caber na tela */
+        height: auto; /* Mantém a proporção */
+        margin: 0 auto; /* Centraliza as imagens */
+    }
+
+    #rodape {
+        text-align: center;
+        font-size: 0.75rem; /* Reduz o tamanho do texto */
+        width: 100%;
+    }
+
+    .main5 {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr; /* Ajusta para 1 coluna em telas menores */
+    }
+}
+
+@media (min-width: 1920px) {
+    .topo {
+        padding: 2rem 10rem; /* Aumenta o espaçamento horizontal */
+    }
+
+    .titulotopo {
+        font-size: 3rem; /* Aumenta o tamanho do título */
+    }
+
+    #main, #main2, .main3, .main4, .main5 {
+        max-width: 1600px; /* Limita a largura máxima do conteúdo */
+        margin: 0 auto; /* Centraliza o conteúdo */
+    }
+
+    #imgcidade, #imgcategorias, #imagenspost, #img1, #img2, #img3, #img4 {
+        width: 50%; /* Ajusta a largura das imagens */
+        margin: 1rem auto; /* Centraliza as imagens */
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr); /* Cria 4 colunas no grid */
+        grid-gap: 2rem; /* Aumenta o espaçamento entre os itens */
+    }
+
+    #rodape {
+        font-size: 1rem; /* Aumenta o tamanho do texto */
+    }
+}
